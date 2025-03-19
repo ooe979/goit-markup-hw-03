@@ -9,6 +9,9 @@ body {
   background: #ffffff;
   width: 1440px;
 }
+.header .container {
+  display: flex;
+}
 
 h1,
 h2,
@@ -42,6 +45,7 @@ img {
 
 .container,
 a {
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -95,6 +99,11 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #404bbf;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-title {
