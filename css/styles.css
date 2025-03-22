@@ -47,8 +47,6 @@ button {
   display: flex;
   gap: 40px;
   align-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .header .container {
