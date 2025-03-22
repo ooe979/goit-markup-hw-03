@@ -40,11 +40,13 @@ img {
 button {
   padding: 0;
   border: none;
+  cursor: pointer;
 }
 
 .nav {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .header .container {
@@ -59,7 +61,8 @@ button {
 
 .container {
   width: 1158px;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -166,12 +169,30 @@ div .container {
   border-radius: 4px;
   padding: 16px 32px;
   display: block;
+  min-width: 169px;
 }
 
 .order-button:hover,
 .order-button:focus {
   background: #404bbf;
   cursor: pointer;
+}
+
+.section-skils {
+  padding: 120px 0;
+}
+
+.se .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .skil-list-title {
