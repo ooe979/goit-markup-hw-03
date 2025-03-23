@@ -48,11 +48,15 @@ button {
   gap: 40px;
   align-items: center;
 }
+.item-nav {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 .header .container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .header {
@@ -62,19 +66,12 @@ button {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 
 .container > a {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
-
-/* .section-title .container {
-  padding: 0 316px 316px 0;
-} */
 
 .logo-heder {
   font-family: "Raleway", sans-serif;
@@ -198,6 +195,7 @@ div .container {
 
 .skil {
   display: flex;
+  gap: 24px;
 }
 
 .skil-item {
