@@ -250,8 +250,8 @@ li .card-specialist:last-child {
   margin-right: 0;
 }
 .card-specialist {
-  /* gap: 24px; */
-  /* width: calc((100% - 72px) / 4); */
+  gap: 24px; */
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
