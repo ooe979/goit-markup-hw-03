@@ -331,6 +331,9 @@ div .container {
   padding: 100px 0;
 }
 
+.footer > .container > a {
+  display: inline-block;
+}
 .logo-heder-footer {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
@@ -341,7 +344,6 @@ div .container {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
