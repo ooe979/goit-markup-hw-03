@@ -29,8 +29,8 @@ p {
 ul,
 li {
   list-style-type: none;
-  margin: auto;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -62,6 +62,8 @@ button {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .container > a {
@@ -229,6 +231,7 @@ div .container {
 
 .team-list {
   display: flex;
+  gap: 24px;
 }
 
 .title-team {
@@ -242,15 +245,8 @@ div .container {
   margin-bottom: 72px;
 }
 
-li .card-specialist {
-  margin-right: 24px;
-}
-
-li .card-specialist:last-child {
-  margin-right: 0;
-}
 .card-specialist {
-  gap: 24px; */
+  /* gap: 24px; */
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -258,9 +254,8 @@ li .card-specialist:last-child {
 .card-title {
   padding-top: 32px;
   padding-bottom: 32px;
-  gap: 24px;
 }
-
+/* section4 */
 .portfolio {
   font-weight: 700;
   font-size: 36px;
