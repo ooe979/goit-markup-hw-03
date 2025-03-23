@@ -29,7 +29,7 @@ p {
 ul,
 li {
   list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding-left: 0;
 }
 
@@ -231,7 +231,7 @@ div .container {
   display: flex;
 }
 
-. .title-team {
+.title-team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -242,6 +242,13 @@ div .container {
   margin-bottom: 72px;
 }
 
+li .card-specialist {
+  margin-right: 24px;
+}
+
+li .card-specialist:last-child {
+  margin-right: 0;
+}
 .card-specialist {
   gap: 24px;
   width: calc((100% - 72px) / 4);
@@ -251,6 +258,7 @@ div .container {
 .card-title {
   padding-top: 32px;
   padding-bottom: 32px;
+  gap: 24px;
 }
 
 .portfolio {
