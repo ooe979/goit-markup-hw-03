@@ -233,7 +233,8 @@ div .container {
 .team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
+  padding: 0 15px;
+  /* width: calc((100% - 72px) / 4); */
 }
 
 .title-team {
@@ -248,8 +249,8 @@ div .container {
 }
 
 .card-specialist {
-  /* gap: 24px; */
-  /* width: calc((100% - 72px) / 4); */
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -257,6 +258,7 @@ div .container {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 /* section4 */
 .portfolio {
   font-weight: 700;
@@ -275,6 +277,7 @@ div .container {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding: 0 15px;
 }
 
 .portfolio-list-item {
