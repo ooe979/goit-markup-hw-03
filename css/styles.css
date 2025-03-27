@@ -118,10 +118,6 @@ address {
 }
 .link:hover,
 .link:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #404bbf;
 }
 /* section-1 */
